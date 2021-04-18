@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc -p .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "author": "Tania Tkachuk",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "ts-jest": "^26.5.5",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
